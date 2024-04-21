@@ -3,8 +3,8 @@ module.exports = {
     default_module: 'api',
 	port: 8360, //服务端口，可自定义
     weixin: {
-        appid: 'wx30df512d78d65cb9', // 小程序 appid
-        secret: '08ff92fed8811020b526be8bff27e45b', // 小程序密钥
+        appid: 'wx4aee58470803d485', // 小程序 appid
+        secret: '4e8afafbdcd220a2a266af6796bc88de', // 小程序密钥
         mch_id: '15988888888', // 商户帐号ID
         partner_key: 'asdasdasdasdasdasdasd', // 微信支付密钥
         notify_url: 'https://www.您的域名.com/api/pay/notify' // 微信支付异步通知
