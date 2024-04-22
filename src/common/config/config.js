@@ -32,12 +32,12 @@ module.exports = {
     },
     // 在七牛新建一个https的空间，这个是用来存储分享图片的https图片，对应的是goods表中的https_pic_url
     qiniuHttps: {
-        access_key: 'asdlakjsdlajlajsdlasasdla', // 在七牛密钥管理中获取
-        secret_key: 'aaaaaaaaaaasdasdasdasd', // 在七牛密钥管理中获取
-        bucket: 'bucketname', // 自己设置的
-        domain: 'domain/', // 自己设置，例如：'http://img.你的域名.com/',别忘了这个”/“
+        access_key: 'sZK2YqLs3jani5AdwzFvMGldfKqLdcA3B6S9oqtK', // 在七牛密钥管理中获取
+        secret_key: 'Cgl8D5DxBSb5docqpv4btzZ3gZmj20q1jUtcNK_CTlH1', // 在七牛密钥管理中获取
+        bucket: 'lai-object', // 自己设置的
+        domain: 'https://hongyuanchuangzhan.online', // 自己设置，例如：'http://img.你的域名.com/',别忘了这个”/“
         // https://developer.qiniu.com/kodo/manual/1671/region-endpoint
-        zoneNum: 0  // 这个自己根据地区设置：华东 0；华北 1；华南 2； 北美 3；东南亚 4
+        zoneNum: 2 // 这个自己根据地区设置：华东 0；华北 1；华南 2； 北美 3；东南亚 4
     },
     aliexpress:{
         // https://market.aliyun.com/products/56928004/cmapi021863.html?spm=5176.730005.productlist.d_cmapi021863.6ba73524uQjLqE&innerSource=search_%E5%85%A8%E5%9B%BD%E5%BF%AB%E9%80%92%E7%89%A9%E6%B5%81%E6%9F%A5%E8%AF%A2-%E5%BF%AB%E9%80%92%E6%9F%A5%E8%AF%A2%E6%8E%A5%E5%8F%A3#sku=yuncode1586300000
