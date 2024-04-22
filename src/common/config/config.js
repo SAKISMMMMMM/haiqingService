@@ -25,10 +25,10 @@ module.exports = {
         ip_server_url:'http://www.kdniao.com/External/GetIp.aspx'
     },
     qiniu: {
-        access_key: 'asdlakjsdlajlajsdlas',      // 在七牛密钥管理中获取
-        secret_key: 'alskdjalksjdlasjdlajsd',    // 在七牛密钥管理中获取
-        bucket: 'bucketname',                    // 请填自己的bucket的名称
-        domain: 'domain/'                         // 请填自己的domain域名
+        access_key: 'IAM-sZK2YqLs3jani5AdwzFvMGldfKqLdcA3B6S9oqtK',      // 在七牛密钥管理中获取
+        secret_key: 'Cgl8D5DxBSb5docqpv4btzZ3gZmj20q1jUtcNK_CTlH1',    // 在七牛密钥管理中获取
+        bucket: 'lai-object',                    // 请填自己的bucket的名称
+        domain: 'https://hongyuanchuangzhan.online'                         // 请填自己的domain域名
     },
     // 在七牛新建一个https的空间，这个是用来存储分享图片的https图片，对应的是goods表中的https_pic_url
     qiniuHttps: {
